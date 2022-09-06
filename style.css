@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,500;0,700;1,100&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:ital,wght@0,100;0,500;0,700;1,100&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", "sans-serif";
+  margin: 0;
+  min-height: 100vh;
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+footer {
+  position: absolute;
+  bottom: 30px;
+  left: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: hsl(228, 12%, 48%);
+}
+
+.main-container {
+  height: 480px;
+  width: 600px;
+  background-color: white;
+  display: flex;
+  border-radius: 8px;
+}
+
+.main-container img {
+  height: 100%;
+  border-radius: 8px 0 0 8px;
+}
+
+.main-container .info {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  position: relative;
+}
+
+.info .category {
+  color: hsl(228, 12%, 48%);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.info .title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.info .product-desc {
+  color: hsl(228, 12%, 48%);
+  font-size: 14px;
+}
+
+.info .price{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.info .price h1 {
+  color: hsl(158, 36%, 37%);
+  font-family: 'fraunces';
+  margin-right: 15px;
+}
+
+.price del{
+    color: hsl(228, 12%, 48%);
+}
+
+.info button{
+    color: #fff;
+    background-color: hsl(158, 36%, 37%);
+    font-size: 16px;
+    font-weight: 700;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* button img{
+    display: inline;
+    width: 30px;
+    height: 3px;
+    margin-right: 15px;
+} */
